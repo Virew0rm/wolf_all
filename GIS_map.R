@@ -14,7 +14,7 @@ library(ggmap)
 
 available_features()
 
-setwd("C:/Users/Jessica/Google Drive/Wolf/Wolf-Logs")
+setwd("C:/Users/Jessica/Google Drive/Wolf/Wolf-Logs", sep=";", header=T)
 wolf1=read.csv("GPS_Collar29456_20190513173121.csv")
 wolf1 =wolf1[c(1:15, 49, 50)]
 wolf1=na.omit(wolf1)
